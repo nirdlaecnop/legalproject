@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Legal Match</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link href="typeaheadjs.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css" />
+   
+
+
+</head>
+<body>
+    <header>
+        <div class="container top-content">
+        <div class="row">
+            <div class="col-xl-8 col-md-8">
+            <h1 class="logo">LegalMatch</h1>
+            </div>
+            <div class="col-xl-4">
+                <ul class="top-list">
+                    <li>No free  to present your case</li>
+                    <li>Choose from lawyers in your area</li>
+                    <li>A 100% confidential service</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main role="main">
+        <div class="container home-container">
+            <div class="intro">
+            <h2>Find a Lawyer for your Legal Issue</h2>
+            <p>Fast, Free and Confidential</p>
+            </div>
+            <div class="row">
+                <div class="col-xl-7">
+                    <fieldset class="search-form">
+                        <div class="form-group ">
+                            <label for="zipcode">Enter Zipcode or City:</label>
+                            <input type="text" name="zipcode" id="zipcode" class="form-control search-container ico1 intro-form  col-md-9 typeahead"  data-provide="typeahead" autocomplete="off" placeholder="Does not have to be where you live">
+                        </div>
+                        <div class="form-group ">
+                            <label for="category" class="">Choose a category:</label>
+                            <input type="text" name="category" id="category" class="form-control search-container intro-form ico2  col-md-9 typeahead" data-provide="typeahead" autocomplete="off"  placeholder="Click to choose a legal category">
+                        </div>
+                        <div>
+                                <p class="text-center col-md-9 "> Can't find your category?" <a href="" class="white" data-toggle="modal" data-target="#categoryModal">Click here.</a></p>
+                        </div>
+                    </fieldset>                   
+                   
+                </div>
+                <div class="col-xl-5 client-review">
+                    <h3>Clients review   LegalMatch Lawyers</h3>
+                    <div class="row">
+                            <div class="col-md-3 client-name">
+                                <img src="images/pic-review1.png" />
+                                <p class="client-name">
+                                    <strong>Mitchell M.</strong>
+                                    Cherry Hil, NJ
+                                </p>
+                            </div>
+                            <div class="col-md-9 client-testi">
+                                <div class="block">
+                                    <strong>Family Law</strong><img src="images/ratings.png" />
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et ...
+                                </p>
+                                    <a class="review" href="#review">Read Review</a><span class="glyphicons glyphicons-book-open"></span>
+                            </div>
+                    </div>
+                    <div class="row">
+                            <div class="col-md-3 client-name">
+                                <img src="images/pic-review2.png" />
+                                <p class="client-name">
+                                    <strong>Joel C.</strong>
+                                    Little Rock, AK
+                                </p>
+                            </div>
+                            <div class="col-md-9 client-testi">
+                                <div class="block">
+                                    <strong>Job and Employment Law</strong><img src="images/ratings.png" />
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et ...
+                                </p>
+                                    <a class="review" href="#review">Read Review</a><span class="glyphicons glyphicons-book-open"></span>
+                            </div>
+                    </div>
+                    <div class="row">
+                            <div class="col-md-3 client-name">
+                                <img src="images/pic-review3.png" />
+                                <p class="client-name">
+                                    <strong>Brigida R.</strong>
+                                    Dallas, TX
+                                </p>
+                            </div>
+                            <div class="col-md-9 client-testi">
+                                <div class="block">
+                                    <strong>Corporate Law</strong><img src="images/ratings.png" />
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et ...
+                                </p>
+                                    <a class="review" href="#review">Read Review</a><span class="glyphicons glyphicons-book-open"></span>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+<footer class="container">
+    <div class="row footer">
+        <div class="col-xl-3"> <img src="images/footer-logo.png" /></div>
+        <div class="col-xl-6">
+           <ul class="footer-link nav justify-content-center">
+               <li class="first"><a href="" class="">User Agreement</a></li>
+               <li><a href="" class="">Privacy Policy</a></li>
+               <li><a href="" class="">Sitemap</a></li>
+           </ul> 
+           <p></p>
+           <p class="text-center">
+               Copyright 1999-2018 LegalMatch. All rights reserved. LegalMatch, <br >
+               the LegalMatch logo, and the tradedress are trademarks of LegalMatch. Patent Pending.
+           </p>
+        </div>
+        <div class="col-xl-3 sponsor">
+            <img src="images/sponsor1.jpg" />
+            <img src="images/sponsor2.jpg" />
+        </div>
+
+    </div>
+</footer>
+<!-- modal for category -->
+<div class="modal fade" id="categoryModal">
+
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+                <button type="button" class="text-right close" data-dismiss="modal">&times;</button>
+               
+            <!-- Modal body -->
+            <div class="modal-body ">
+                    <h4 class="modal-title h4category">Other Categories</h4>
+                    <p>Choose a categories that best for you</p>
+                <div class="row">
+                    
+                    <div class="col-md-6">
+                        <ul class="category-list">
+                            <li><a href="#">Abuse (Child, Domestic, Sexual)</a></li>
+                            <li><a href="#">Agencies & Administration</a></li>
+                            <li><a href="#">Automobile (DUI, Crimes, Speeding)</a></li>
+                            <li><a href="#">Automobile (Accidents, Insurance)</a></li>
+                            <li><a href="#">Banking (Business, Consumer)</a></li>
+                            <li><a href="#">Bars & Restaurants</a></li>
+                            <li><a href="#">Business Formation & Dissolution</a></li>
+                            <li><a href="#">Children (Adoptation, Custody, Support)</a></li>
+                            <li><a href="#">Class Actions (Bad Drugs, Products)</a></li>
+                            <li><a href="#">Commercial Law and Contracts</a></li>
+                            <li><a href="#">Constitutional Law</a></li>
+                            <li><a href="#">Construction (Disputes, Liens)</a></li>
+                            <li><a href="#">Categories itemss here</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                            <ul class="category-list">
+                               
+                                <li><a href="#">Woman Protection)</a></li>
+                                <li><a href="#">Legal Matters</a></li>
+                                <li><a href="#">Constitutional Law</a></li>
+                                <li><a href="#">Construction (Disputes, Liens)</a></li>
+                                <li><a href="#">Categories items here</a></li>
+                                <li><a href="#">Abuse (Child, Domestic, Sexual)</a></li>
+                                <li><a href="#">Agencies & Administration</a></li>
+                                <li><a href="#">Automobile (DUI, Crimes, Speeding)</a></li>
+                                <li><a href="#">Automobile (Accidents, Insurance)</a></li>
+                                <li><a href="#">Banking (Business, Consumer)</a></li>
+                                <li><a href="#">Bars & Restaurants</a></li>
+                                <li><a href="#">Business Formation & Dissolution</a></li>
+                                <li><a href="#">Children (Adoptation, Custody, Support)</a></li>
+                            </ul>
+                        </div>
+                        
+                </div>
+                
+            </div>            
+          </div>
+        </div>
+
+      
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js    " ></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap3-typeahead.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

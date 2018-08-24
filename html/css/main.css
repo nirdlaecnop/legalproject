@@ -1,0 +1,128 @@
+@import "typeaheadjs.scss";
+
+@font-face {
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham/Gotham-Light.otf');
+    font-weight: 200;
+    font-style: lighter;
+}
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham/Gotham-Bold.otf');
+    font-weight: 400;
+    font-style: bold;
+}
+@font-face {
+    font-family: 'Gotham Round';
+    src: url('../fonts/GothamRnd/GothamRnd-Medium.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background:#fff url('../images/home-bg.jpg') no-repeat; 
+    background-position-y: 90px;
+    font-family: Gotham, Arial, Helvetica, sans-serif;
+    font-style:lighter;
+    font-size:.8rem;
+}
+h1.logo{
+    float:left;
+    width:295px;
+    height:61px;
+    background: url('../images/logo.png') no-repeat;
+    color:transparent;
+}
+.top-content{
+    margin-top:20px;
+}
+.top-list{
+    font-size:12px;
+    list-style-type:none;
+    list-style-image: url('../images/check.jpg');
+}
+.home-container{
+    padding-top:1.5rem;
+    color:#fff;
+}
+.dropdown-menu{color:#000 !important; font-size:.8rem;min-width:300px;}
+.dropdown-menu li a{font-weight:lighter;}
+.intro h2{
+    font-weight:lighter;
+    font-size:2.5rem;
+}
+.intro p{
+    font-size:1.8rem;
+    
+}
+
+.search-form label{
+    font-size:1.1rem; 
+    font-weight:normal
+}
+.search-form p{
+    color:#fff;
+}
+.search-form p{
+    font-weight:lighter; 
+    font-weight:1.1rem;
+}
+.search-container{position:relative !important;left:70px;margin-left:-70px; }
+.intro-form{
+    
+    border-radius:2rem;
+    padding:2rem;
+    padding-left:4rem;
+  
+    font-weight:lighter;    
+    font-size:.9rem;
+}
+.ico1{background: #eeeeee url(../images/ico-1.png) no-repeat 12px 18px;}
+.ico2{background: #eeeeee url(../images/ico-2.png) no-repeat 12px 18px;}
+.white{color:#fff !important;}
+.client-review,.client-review h3{
+    font-weight:lighter;
+}
+.client-review h3{font-size:1.1rem;}
+
+.client-name{
+font-size:.8rem;
+text-align:center;
+}
+.client-testi{padding-top:10px; margin-left:-15px;}
+.client-testi strong{
+    float:left;
+    font-size:.8rem;
+    padding-right:10px;
+}
+.client-testi img{display:block;}
+.client-testi p{display:block;font-size:.7rem;font-style:italic;}
+.client-testi .review{display:inline-flex;float:right; text-align: right; font-size: .75rem; color: #ffcc33;}
+
+footer{
+margin:3.5rem 0;
+font-weight:lighter;
+}
+footer p{font-size:.7rem;}
+.footer-link{margin-top:15px;list-style-type:square;}
+.footer-link .first{list-style-type:none;}
+.footer-link li a{
+margin:10px 40px 10px 10px;
+font-weight:lighter;
+color:#515151;
+font-size:.8rem;
+}
+.sponsor img{
+    margin:10px 0px;
+}
+.h4category{text-transform: uppercase;font-size:1rem;}
+.close{padding:10px 20px 0px !important;}
+.modal-body{font-weight:lighter !important}
+.modal-dialog{width:700px;}
+.category-list{list-style-type:none;padding-left:0;}
+.category-list, .category-list li{margin-left:0px;}
